@@ -51,6 +51,7 @@ public class QuizDemo {
         String res = obj.highestScore(nameofSchool,scores);
         System.out.println("res = " + res);
         String[] res2 = obj.convertAllNamesToCapital(nameofSchool);
+        //Printing school name in upperCase
         for (int i = 0; i < res2.length; i++) {
             System.out.print(res2[i] + " ");
         }
